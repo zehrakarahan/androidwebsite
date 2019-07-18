@@ -1,0 +1,50 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.0'
+        classpath 'com.google.gms:google-services:4.1.0'
+
+
+
+
+        
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+
+allprojects {
+    repositories {
+        google()
+        mavenLocal()
+        maven { url 'http://maven.google.com' }
+        jcenter { url "http://jcenter.bintray.com/" }
+
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url "$rootDir/../node_modules/react-native/android"
+        }
+
+        configurations.all {
+            resolutionStrategy {
+                force "com.google.android.gms:play-services-basement:$googlePlayServicesVersion"
+                force "com.google.android.gms:play-services-tasks:$googlePlayServicesVersion"
+                force 'com.android.support:support-v4:25.0.0'
+            }
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+ext {
+    googlePlayServicesVersion   = "15.0.1"
+}

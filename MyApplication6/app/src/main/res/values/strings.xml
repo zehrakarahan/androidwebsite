@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_main5">Main5Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_import">Import</string>
+    <string name="app_gallery">Gallery</string>
+    <string name="app_slideshow">Slideshow</string>
+    <string name="app_tools">Tools</string>
+    <string name="app_communicate">Communicate</string>
+    <string name="app_share">Share</string>
+    <string name="app_send">Send</string>
+    <string name="app_kategoriler">Kategoriler</string>
+    <string name="welcometext">HOŞGELDİNİZ \n%1$s</string>
+    <string name="giristext">Giriş Yap veya Kayıt Ol</string>
+    <string name="app_urunler">Urunler</string>
+    <string name="app_yorumlar">Yorumlar</string>
+    <string name="navdemo">Navigation Drawer Full Demo</string>
+    <string name="gallery">This is gallery Activity</string>
+    <string name="fileimport">This is file import activity</string>
+    <string name="slideshow">This is slide show activity</string>
+    <string name="action_setting">Settings</string>
+    <string name="appmenuname">Global Mall Online</string>
+    <string name="btn_login">Giriş</string>
+    <string name="login_need">Yeni Bir Hesap Oluştur</string>
+    <string name="reg_to_login">Zaten Bir Hesabım Var</string>
+    <string name="title_activity_giris_sayfasi">Giris_sayfasi</string>
+    <string name="title_activity_giris_activity">giris_activity</string>
+
+</resources>

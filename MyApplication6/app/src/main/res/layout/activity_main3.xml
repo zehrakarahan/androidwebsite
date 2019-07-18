@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3839bb"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:layout_width="198dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/ic_done_all_black_24dp" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:text="Firebase Tutorial"
+          android:layout_marginTop="161dp"
+          android:textSize="22dp"
+          android:textColor="@color/White"/>
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="227dp"
+        android:hint="Email"
+        android:textColorHint="@color/White"
+        android:background="@drawable/editext_background"
+        android:ems="10"
+        android:textColor="@color/White"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/loginpassword"
+        android:hint="Sifre"
+        android:textColorHint="@color/White"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/editext_background"
+        android:ems="10"
+        android:layout_marginTop="297dp"
+        android:textColor="@color/White"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/hazirlama"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/White"
+        android:text="@string/btn_login" />
+
+    <TextView
+        android:id="@+id/login_need_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:text="@string/login_need"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        tools:text="@string/login_need" />
+
+
+</RelativeLayout>
